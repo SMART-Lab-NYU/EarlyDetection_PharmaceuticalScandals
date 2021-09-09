@@ -18,7 +18,9 @@ from sklearn.cross_validation import train_test_split
 import glob
 import cv2
 from sklearn.metrics import accuracy_score
+
 ####################################################################
+# Definitions
 fdconso = open('./Results/125_w-_34.csv','w')
 fdconso.write("All\n")
 fdconso.write("File,Accuracy\n")
@@ -31,14 +33,22 @@ nb_filters=32
 listing=os.listdir(path)
 matdata=[]
 label=[]
+
+####################################################################
+# Read Data
 for file in listing:
     fname =glob.glob(path+'/'+file+'/*.png')
     for fn in fname:
         im=cv2.resize(cv2.imread(fn),(100,100)).reshape(-1)
         matdata.append(np.r_[int(file),im])
 data = np.array(matdata, dtype='uint8')
+#training features matrix
 X=data[:,1:]
+#training labels
 y=data[:,0]
+
+####################################################################
+# Model Definition
 model=Sequential()
 model.add(Convolution2D(32, (5,5), activation='relu', input_shape=(100,100,3)))
 model.add(MaxPooling2D(pool_size=(2,2)))
@@ -51,6 +61,9 @@ model.add(Dense(50, activation='relu'))
 model.add(Dense(nb_classes, activation='softmax'))
 model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accuracy'])
 fd = open('./Results/125_w-_34all.csv','w')
+
+####################################################################
+# 4 Fold stratified cross validation 
 from sklearn.model_selection import StratifiedKFold
 skf = StratifiedKFold(n_splits=4)
 org=np.array([], dtype=np.float64)
