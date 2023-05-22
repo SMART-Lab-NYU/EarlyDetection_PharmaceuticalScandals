@@ -1,6 +1,6 @@
 # Project Title
 
-[Project Title]
+A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media.
 
 ## Description
 
