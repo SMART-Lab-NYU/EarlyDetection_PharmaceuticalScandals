@@ -16,7 +16,7 @@ This repository contains the code corresponding to the paper ``**A Holistic AI-b
 
 ## Installation
 1. Clone the repository:
-git clone [repository URL]
+git clone https://github.com/SMART-Lab-NYU/EarlyDetection_PharmaceuticalScandals.git
 
 2. Navigate to the project directory:
 cd [project directory]
