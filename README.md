@@ -16,10 +16,10 @@ This repository contains the code corresponding to the paper ``**A Holistic AI-b
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/SMART-Lab-NYU/EarlyDetection_PharmaceuticalScandals.git
+```git clone https://github.com/SMART-Lab-NYU/EarlyDetection_PharmaceuticalScandals.git```
 
 2. Navigate to the project directory:
-cd [project directory]
+```cd [project directory]```
 
 3. Install the dependencies:
 [instructions to install dependencies, e.g., pip install -r requirements.txt]
