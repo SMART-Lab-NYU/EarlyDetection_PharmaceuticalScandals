@@ -2,21 +2,20 @@
 
 [Project Title]
 
-# Description
+## Description
 
-This repository contains [brief description of the project]. It serves as a [purpose of the project] and provides [overview of the functionalities/features].
+This repository contains the code corresponding to the paper ``**A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media**''.
 
-# Table of Contents
+## Table of Contents
 
-- Installation
-- Usage
-- Contributing
-- License
-- Installation
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-# Installation
+
+## Installation
 1. Clone the repository:
-bash
 git clone [repository URL]
 
 2. Navigate to the project directory:
