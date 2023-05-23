@@ -1,10 +1,8 @@
-# Project Title
-
-A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media.
+# A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media
 
 ## Description
 
-This repository contains the code corresponding to the paper ``**A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media**''.
+This repository contains the code corresponding to the paper ``**A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media**''. 
 
 ## Table of Contents
 
@@ -22,7 +20,7 @@ This repository contains the code corresponding to the paper ``**A Holistic AI-b
 ```cd [project directory]```
 
 3. Install the dependencies:
-[instructions to install dependencies, e.g., pip install -r requirements.txt]
+This code was tested with Python 3. 
 
 # Usage
 
