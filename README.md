@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the code corresponding to the paper ``**A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media**''. 
+This repository contains the code corresponding to the paper ``**A Holistic AI-based Approach for Pharmacovigilance Optimization from Patients Behavior Social Media**'' submitted to the Artificial Intelligence in Medicine journal. 
 
 ## Table of Contents
 
