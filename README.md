@@ -40,7 +40,7 @@ This website is certainly not the best source of medical information, moreover, 
 For the second step you can scrap your own data or use the file named "dataset_doctissimo_22_03_2020.csv" in data's files.
 
 2. Starting point for reproducible results
-- **2_datasets_formating_cleaning.py**: Perform cleaning and formatting steps from "dataset_doctissimo_22_03_2020.csv" file.
+- **2_datasets_formating_cleaning.py**: Perform cleaning and formatting steps from "dataset_doctissimo_22_03_2020.csv" and with "french_tweets.csv", "exclusions.csv" files.
 - **3_word_frequency_analysis.py**: Perform word frequency analysis.
 - **4_fasttext_word2vec_mlmodel**: Train model for generating word embeddings. 
 - **5_sentiment_analysis_CNN_clustering**: Apply sentiment analysis. 
